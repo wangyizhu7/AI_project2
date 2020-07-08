@@ -1,0 +1,14 @@
+1. The main function is in the Kisei.java
+
+2. In default, if you run the program directly, it will create a game with 12 board size, target 6 and print the game id. Then it will make first move and wait 6 seconds for opponent to put chess. In the following steps, I will always give 6 seconds for opponent to put chess
+
+3. If you want change the board size and the target, you can change value of the variables: boardSize and target, in the start() method.
+
+4. If you want change the wait time, you can change the global variable waitTime
+
+5. If you want to accept game created by other team, you should change the value of the variable createGameOrAcceptGame to 2 in start() method, and you also need provide the game id, change the value of variable acceptedGameId to target team id. 
+IMPORTANT: If the program accepted a game, it need the opponent put his chess first or it will keep waiting
+
+6. You can also change the search depth by change the global variable searchDeep.
+
+If you encounter any problems while running the program, you can contact me at anytime. I am willing help you to fix the problems. My email: hujinhao@gwu.edu
